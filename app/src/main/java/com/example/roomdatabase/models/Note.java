@@ -15,4 +15,26 @@ public class Note {
     private String description;
 
     private String priority;
+
+    public Note(String noteTitle, String description, String priority) {
+        this.noteTitle = noteTitle;
+        this.description = description;
+        this.priority = priority;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNoteTitle() {
+        return noteTitle;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
 }
